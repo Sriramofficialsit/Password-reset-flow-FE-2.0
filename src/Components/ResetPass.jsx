@@ -31,7 +31,7 @@ const ResetPass = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post(`https://password-reset-flow-be-2-0.onrender.com/auth/reset-password`, {
+      const response = await axios.post(`https://password-reset-flow-be-2-0-1.onrender.com/auth/reset-password`, {
         token,
         newPassword,
       });
